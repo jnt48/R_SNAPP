@@ -1,0 +1,42 @@
+{
+  "name": "r-snapp",
+  "version": "1.0.0",
+  "description": "A lightning-fast, modern package manager for Node.js with intelligent caching and parallel downloads",
+  "main": "snapp.js",
+  "bin": {
+    "snapp": "./snapp.js"
+  },
+  "scripts": {
+    "test": "node test-snapp-simple.js",
+    "start": "node snapp.js"
+  },
+  "keywords": [
+    "package-manager",
+    "npm",
+    "yarn",
+    "installer",
+    "node",
+    "dependencies",
+    "parallel",
+    "cache",
+    "fast"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnt48/R-SNAPP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jnt48/R-SNAPP/issues"
+  },
+  "homepage": "https://github.com/jnt48/R-SNAPP#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "snapp.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
