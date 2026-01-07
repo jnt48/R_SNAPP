@@ -1,5 +1,5 @@
 {
-  "name": "r-snapp",
+  "name": "r_snapp",
   "version": "1.0.0",
   "description": "A lightning-fast, modern package manager for Node.js with intelligent caching and parallel downloads",
   "main": "snapp.js",
