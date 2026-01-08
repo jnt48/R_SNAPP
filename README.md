@@ -1,8 +1,6 @@
-# R_SNAPP
+# r_snapp
 
 A lightning-fast, modern package manager for Node.js with intelligent caching and parallel downloads.
-
----
 
 ## Features
 
@@ -15,8 +13,6 @@ A lightning-fast, modern package manager for Node.js with intelligent caching an
 - **Auto-retry** - 3 attempts on network failures
 - **Statistics** - Detailed metrics for every install
 - **Debug mode** - Comprehensive logging
-
----
 
 ## Installation
 
@@ -31,8 +27,6 @@ npm install -g r_snapp
 ```bash
 npm install r_snapp
 ```
-
----
 
 ## Quick Start
 
@@ -95,8 +89,6 @@ snapp cache clean
 snapp cache dir
 ```
 
----
-
 ## Why R_SNAPP?
 
 ### Performance Comparison
@@ -121,8 +113,6 @@ snapp cache dir
 - Clear, actionable error messages
 - Progress indicators
 
----
-
 ## Commands Reference
 
 | Command | Description |
@@ -139,8 +129,6 @@ snapp cache dir
 | `snapp cache` | Show cache information |
 | `snapp cache clean` | Clear the cache |
 | `snapp help` | Show help information |
-
----
 
 ## Configuration
 
@@ -169,8 +157,6 @@ SNAPP_DEBUG=1 snapp install
 # Use private registry
 SNAPP_REGISTRY=https://npm.mycompany.com snapp install
 ```
-
----
 
 ## Semver Support
 
@@ -202,8 +188,6 @@ R_SNAPP supports all npm semantic versioning patterns:
 - `1.2.3 - 2.3.4` - Version range
 - `*` or `latest` - Latest version
 
----
-
 ## Caching System
 
 R_SNAPP maintains a persistent cache in `~/.snapp/cache`:
@@ -228,8 +212,6 @@ R_SNAPP maintains a persistent cache in `~/.snapp/cache`:
 - **Offline**: Works offline for cached packages
 - **Reliability**: Less dependent on network stability
 
----
-
 ## Security
 
 ### Integrity Checking
@@ -241,8 +223,6 @@ Every package is verified with SHA-512 cryptographic hashing.
 - Prevents package tampering
 - Ensures package authenticity
 - npm registry compatible
-
----
 
 ## Debugging
 
@@ -260,8 +240,6 @@ SNAPP_DEBUG=1 snapp install
 - Retry attempts
 - Error stack traces
 
----
-
 ## Installation Statistics
 
 After each installation, R_SNAPP displays detailed statistics:
@@ -275,8 +253,6 @@ Installation Statistics:
   Cache size: 127.45 MB
 ```
 
----
-
 ## Contributing
 
 Contributions are welcome! Here's how:
@@ -286,8 +262,6 @@ Contributions are welcome! Here's how:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
----
 
 ## Changelog
 
@@ -300,13 +274,9 @@ Contributions are welcome! Here's how:
 - Full semver support
 - Dependency graph with cycle detection
 
----
-
 ## License
 
 MIT License - See LICENSE file for details.
-
----
 
 ## Links
 
@@ -314,19 +284,13 @@ MIT License - See LICENSE file for details.
 - **GitHub**: https://github.com/jnt48/R-SNAPP
 - **Issues**: https://github.com/jnt48/R-SNAPP/issues
 
----
-
 ## Author
 
 **GitHub**: [@jnt48](https://github.com/jnt48)
 
----
-
 ## Support
 
 Give a star on GitHub if this project helped you!
-
----
 
 **Made with love by the R_SNAPP team**
 
